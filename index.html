@@ -5,25 +5,119 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Udyom Academy - সংগঠন</title>
   <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Icons -->
+  <script src="https://kit.fontawesome.com/a2d9d6b6a1.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <!-- Header -->
   <header>
-    <h1>Udyom Academy</h1>
-    <nav>
-      <a href="index.html">হোম</a>
-      <a href="about.html">আমাদের সম্পর্কে</a>
-      <a href="contact.html">যোগাযোগ</a>
-    </nav>
+    <div class="container nav-container">
+      <h1 class="logo">Udyom <span>Academy</span></h1>
+      <nav>
+        <a href="#home">হোম</a>
+        <a href="#about">আমাদের সম্পর্কে</a>
+        <a href="#mission">মিশন</a>
+        <a href="#team">টিম</a>
+        <a href="#contact">যোগাযোগ</a>
+      </nav>
+    </div>
   </header>
 
-  <section class="hero">
-    <h2>আমাদের সংগঠনে স্বাগতম</h2>
-    <p>এটি একটি শিক্ষামূলক ও উদ্যোক্তা সংগঠন, যেখানে সবাই একে অপরকে সাহায্য করবে এবং জ্ঞান ভাগাভাগি করবে।</p>
-    <a href="about.html" class="btn">আরও জানুন</a>
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h2>শিক্ষা ও উদ্যোক্তাদের জন্য একটি আলোকিত সংগঠন</h2>
+      <p>আমরা একে অপরকে সাহায্য করি, শিখি এবং একসাথে এগিয়ে যাই।</p>
+      <a href="#about" class="btn">আরও জানুন</a>
+    </div>
   </section>
 
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2>আমাদের সম্পর্কে</h2>
+      <p>
+        Udyom Academy একটি শিক্ষামূলক ও উদ্যোক্তা সংগঠন। 
+        আমরা তরুণদের একত্রিত করি, নেটওয়ার্কিং তৈরি করি এবং 
+        শিক্ষা ও ব্যবসায়িক দক্ষতা বৃদ্ধির জন্য কাজ করি।
+      </p>
+    </div>
+  </section>
+
+  <!-- Mission Section -->
+  <section class="mission" id="mission">
+    <div class="container">
+      <h2>আমাদের মিশন</h2>
+      <div class="mission-cards">
+        <div class="card">
+          <i class="fas fa-book"></i>
+          <h3>শিক্ষা</h3>
+          <p>শিক্ষা সবার জন্য সহজলভ্য ও আধুনিক করা।</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-handshake"></i>
+          <h3>সহযোগিতা</h3>
+          <p>সবার মাঝে সহযোগিতার পরিবেশ তৈরি করা।</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-lightbulb"></i>
+          <h3>উদ্যোক্তা</h3>
+          <p>তরুণদের ব্যবসায়িক দক্ষতা তৈরি করা।</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="team" id="team">
+    <div class="container">
+      <h2>আমাদের টিম</h2>
+      <div class="team-members">
+        <div class="member">
+          <img src="https://via.placeholder.com/150" alt="Founder">
+          <h3>মোঃ সোহান</h3>
+          <p>প্রতিষ্ঠাতা</p>
+        </div>
+        <div class="member">
+          <img src="https://via.placeholder.com/150" alt="Co-founder">
+          <h3>সদস্য ১</h3>
+          <p>সহ-প্রতিষ্ঠাতা</p>
+        </div>
+        <div class="member">
+          <img src="https://via.placeholder.com/150" alt="Advisor">
+          <h3>সদস্য ২</h3>
+          <p>উপদেষ্টা</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>যোগাযোগ করুন</h2>
+      <form id="contactForm">
+        <input type="text" placeholder="নাম" required>
+        <input type="email" placeholder="ইমেইল" required>
+        <textarea placeholder="বার্তা লিখুন..." required></textarea>
+        <button type="submit" class="btn">পাঠান</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <p>© 2025 Udyom Academy. সর্বস্বত্ব সংরক্ষিত।</p>
+    <div class="container">
+      <p>© 2025 Udyom Academy | সর্বস্বত্ব সংরক্ষিত</p>
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
   </footer>
+
 </body>
-      </html>
+    </html>
